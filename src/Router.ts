@@ -2,7 +2,7 @@ import * as tools from './tools';
 import { PageUeberuns} from './pages/PageUeberuns';
 import { Page404 } from './pages/Page404';
 
-const pageNames = ['Über uns', 'Bauherrenvertretung', 'Projektleitung','IInterims', 'Kundenprojekt', 'IImpressum ', 'Kontakt'];
+const pageNames = ['Über uns', 'Bauherrenvertretung', 'Projektleitung','Interims', 'Kundenprojekt', 'Impressum ', 'Kontakt'];
 
 const currentPageIdCode = getSmartCurrentPageId();
 
