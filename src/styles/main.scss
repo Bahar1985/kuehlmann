@@ -1,0 +1,167 @@
+:root {
+    --background: #282a36;
+    --currentLine: #44475a;
+    --foreground: #f8f8f2;
+    --comment: #6272a4;
+    --cyan: #8be9fd;
+    --green: #50fa7b;
+    --orange: #ffb86c;
+    --pink: #ff79c6;
+    --purple: #bd93f9;
+    --red: #ff5555;
+    --yellow: #f1fa8c;
+  
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+  
+  body {
+    background-color: var(--background);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+  
+  }
+  .container{
+  
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    /* background: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxifj1e-6KpoGlzXYbINquj7Enh_IDHdWYvWD_oY2CvGW77GeM); */
+  
+    background-color: var(--foreground);
+   
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+  }
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  .menu ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+  
+  }
+  
+  .menu li {
+  
+    padding: 8px;
+  
+  }
+  
+  .menu a {
+    text-decoration: none;
+    font-size: 1.3;
+    font-weight: bold;
+    padding: 8px 12px;
+    color: var(--background);
+  
+  }
+  
+  .menu a:hover {
+    background-color: var(--currentLine);
+    border-radius: 4px;
+    color: var(--foreground);
+  
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  p {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: gray;
+  }
+  
+  .hero {
+    gap: 3vw;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    
+  }
+  
+  .hero-inner {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+  
+  }
+  
+  .hero-inner img {
+    border-radius: 12px;
+  }
+  
+  
+  
+  footer {
+    display: flex;
+    background-color: var(--foreground);
+    color: var(--background);
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+    flex-direction: column;
+  
+  }
+  
+  .foot {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .foot a {
+    color: var(--background);
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  
+  footer p {
+    color: var(--background);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .impressum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .impressum img {
+    width: 120px;
+  
+  }
+  
+  .h1-foot {
+    font-size: large;
+  
+  }
+  
+  .welcome h1 {
+    color: var(--red);
+  }
+  
+  .welcome p {
+    color: #d1d5db;
+    text-align: justify;
+  }
