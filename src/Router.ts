@@ -6,10 +6,12 @@ const pageNames = ['Über uns', 'Bauherrenvertretung', 'Projektleitung','Interim
 
 const currentPageIdCode = getSmartCurrentPageId();
 
-export const getCurrentPage = () => {
+export const getCurrentPage = () => { 
+	console.log(11,currentPageIdCode)
 	switch (currentPageIdCode) {
-		case '':
+		case 'über uns':
 		case 'ueberuns':
+			
 			return PageUeberuns();
 		default:
 			return Page404();
