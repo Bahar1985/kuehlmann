@@ -2,16 +2,14 @@ import * as tools from './tools';
 import { PageUeberuns} from './pages/PageUeberuns';
 import { Page404 } from './pages/Page404';
 
-const pageNames = ['Über uns', 'Bauherrenvertretung', 'Projektleitung','Interims', 'Kundenprojekt', 'Impressum ', 'Kontakt'];
+const pageNames = ['Über uns', 'Bauherrenvertretung', 'Projektleitung','Interims', 'Kundenprojekt', 'IImpressum ', 'Kontakt'];
 
 const currentPageIdCode = getSmartCurrentPageId();
 
-export const getCurrentPage = () => { 
-	console.log(11,currentPageIdCode)
+export const getCurrentPage = () => {
 	switch (currentPageIdCode) {
-		case 'über uns':
+		case '':
 		case 'ueberuns':
-			
 			return PageUeberuns();
 		default:
 			return Page404();
